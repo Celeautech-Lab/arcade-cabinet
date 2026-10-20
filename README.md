@@ -1,6 +1,6 @@
 # arcade-cabinet
 
-**2-player bartop arcade cabinet, designed for laser cutting, powered by a Raspberry Pi running Recalbox.**
+**2-player bartop arcade cabinet, designed for laser cutting, powered by a Raspberry Pi 3B+ running Recalbox.**
 
 ![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 ![Platform: Raspberry Pi](https://img.shields.io/badge/Platform-Raspberry%20Pi-C51A4A.svg)
@@ -38,7 +38,7 @@ This project is a **bartop arcade cabinet** (designed to sit on a table) for **2
 
 - **Structure**: **laser-cut MDF** panels, assembled with **mortise and tenon joints**.
 - **3D-printed parts**: a few small parts (back panel latches and lockers, volume knob).
-- **Core**: a **Raspberry Pi** running [Recalbox](https://www.recalbox.com/), a ready-to-use emulation OS.
+- **Core**: a **Raspberry Pi 3B+** running [Recalbox](https://www.recalbox.com/), a ready-to-use emulation OS.
 - **Controls**: a "Zero Delay" USB arcade kit, natively recognized by Recalbox, with no drivers to install.
 
 The design is meant to be **reproducible by any maker** with access to a laser cutter and a 3D printer. All source files are provided.
@@ -71,7 +71,7 @@ The design is meant to be **reproducible by any maker** with access to a laser c
 | :--- | :--- |
 | **Dimensions (W × D × H)** | 620 × ~500 × ~700 mm |
 | **Screen** | 24" 16:9, VESA 100 × 100 mount |
-| **Players** | 2 (+ 1 extra player possible via USB gamepad) |
+| **Players** | 2 (+ 1 extra player possible via USB gamepad; not tested) |
 | **Controls per player** | 1 eight-way joystick + 8 LED buttons |
 | **Front panel** | 1P Start, 2P Start, 2 Coin buttons, USB pass-through port |
 | **Audio** | 5 V stereo amplifier + 2 × 2" 4 Ω speakers, volume adjustable from the front |
@@ -103,7 +103,9 @@ The complete, detailed list is in **[BOM.md](BOM.md)**. It covers:
 | **CO2 laser cutter, 80 W**, 500 × 700 mm work area | All the MDF panels |
 | **Bambu Lab P1S** 3D printer | Latches, lockers and volume knob |
 
-Any laser cutter with a large enough bed (the biggest panels need roughly 500 × 700 mm) and any FDM 3D printer will do. Check the dimensions of the DXF files against your machine's work area before starting.
+The MDF panels were cut on an 80 W CO₂ laser cutter with a 500 × 700 mm work area. Check the dimensions of the DXF files against your machine's work area before starting.
+
+The 3D-printed parts were made on a **Bambu Lab P1S**. Other FDM printers may also be suitable, but were not tested for this project.
 
 ### Hand tools
 
@@ -138,7 +140,7 @@ Cutting parameters (power, speed, kerf compensation) depend too much on each mac
 
 ### 3D printing
 
-The files are in [`CAD/3MF/`](CAD/3MF/). The original parts were printed in **TPU 64D**, but **PLA** or any other rigid filament works too. Use your printer's usual settings.
+The files are in [`CAD/3MF/`](CAD/3MF/). The original parts were printed in **TPU 64D**. **PLA or another rigid filament may also be suitable, but has not been tested.** Use your printer's usual settings.
 
 | File | Qty |
 | :--- | :---: |
@@ -158,7 +160,7 @@ The cabinet is assembled with **mortise and tenon joints**, held together with *
 
 1. **Lay the left panel** (`left_panel`) flat on a table, inner face up.
 2. **Insert all the other panels** into their slots: bottom, front panels, control panel, screen panel, top, marquee, etc. Use the STEP file to check where each one goes.
-3. **Place the Ø 8 mm dowel** (back panel support) and **the two 33 × 33 mm battens** (screen support bars). The battens are cut to length, so they simply sit in the cabinet, aligned with the edge.
+3. **Place the Ø 8 mm dowel** (back panel support) and **the two 33 × 33 mm battens** (screen support bars) inside the cabinet. The battens are cut to length, so they simply sit in the cabinet, aligned with the edge.
 4. **Close with the right panel** (`right_panel`).
 5. **Screw everything together** with the 3 × 10 mm screws.
 
@@ -226,7 +228,7 @@ The [`Back_view_without_panel.png`](Media/Back_view_without_panel.png) render sh
 
 This port lets you plug in:
 - a **keyboard**, handy for navigating menus or debugging Recalbox;
-- a **USB gamepad**, for games that need other types of controls, or to play **with 3 players** (2 on the cabinet + 1 on the gamepad);
+- a **USB gamepad**, for games that need other types of controls. Playing with 3 players (2 on the cabinet + 1 on the gamepad) is possible in principle, but this setup has not been tested;
 - a **USB drive** or external disk.
 
 ---
