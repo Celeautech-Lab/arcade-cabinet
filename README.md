@@ -17,8 +17,8 @@
 - [Overview](#overview)
 - [Gallery](#gallery)
 - [Specifications](#specifications)
-- [Repository Contents](#repository-contents)
 - [Bill of Materials (BOM)](#bill-of-materials-bom)
+- [Tools](#tools)
 - [Manufacturing](#manufacturing)
 - [Assembly](#assembly)
 - [Electronics and Wiring](#electronics-and-wiring)
@@ -79,24 +79,6 @@ The design is meant to be **reproducible by any maker** with access to a laser c
 
 ---
 
-## Repository Contents
-
-```
-arcade-cabinet/
-├── CAD/
-│   ├── 3MF/     → 3D-printable parts
-│   ├── DXF/     → 2D laser-cutting plans
-│   └── STEP/    → Full 3D assembly (cabinet_top_asm.stp)
-├── Media/       → Photos, CAD renders and wiring diagram
-├── BOM.md       → Complete bill of materials
-├── LICENSE      → CC BY-NC 4.0 license
-└── README.md
-```
-
-> **The STEP file** (`CAD/STEP/cabinet_top_asm.stp`) contains the complete assembly. Open it in any CAD software to see where each part goes during assembly.
-
----
-
 ## Bill of Materials (BOM)
 
 The complete, detailed list is in **[BOM.md](BOM.md)**. It covers:
@@ -110,7 +92,39 @@ The complete, detailed list is in **[BOM.md](BOM.md)**. It covers:
 
 ---
 
+## Tools
+
+### Machines used
+
+| Machine | Used for |
+| :--- | :--- |
+| **CO2 laser cutter, 80 W**, 500 × 700 mm work area | All the MDF panels |
+| **Bambu Lab P1S** 3D printer | Latches, lockers and volume knob |
+
+Any laser cutter with a large enough bed (the biggest panels need roughly 500 × 700 mm) and any FDM 3D printer will do. Check the dimensions of the DXF files against your machine's work area before starting.
+
+### Hand tools
+
+- Wood saw (to cut the battens and the dowel to length)
+- Screwdrivers (Phillips, plus a flat one)
+- Pencil and tape measure
+- Sandpaper (to clean up laser-cut edges if needed)
+- Drill and bits (for pilot holes if you want to avoid splitting the MDF)
+- Wire strippers and a soldering iron, or crimping tools, for the electronics
+- Hot glue gun
+- **Optional**: a blowtorch, to **blacken the ends of the battens and the dowel**. This gives them a uniform dark finish that matches the rest of the cabinet. The difference is visible in the photos.
+
+---
+
 ## Manufacturing
+
+### What the CAD files contain
+
+The [`CAD/`](CAD/) folder is split in three:
+
+- **`DXF/`**: 2D plans for laser cutting.
+- **`3MF/`**: 3D-printable parts.
+- **`STEP/`**: the **complete 3D assembly** (`cabinet_top_asm.stp`). Open it in any CAD software to see where each part goes during assembly.
 
 ### Laser cutting
 
