@@ -15,7 +15,7 @@
 | **USB Flush Mount Cable** | USB 3.0 male-to-female threaded round panel mount extension cable, 1 m *(Model used: **Bolongking USB 3.0 Flush Mount**)* | 1 | Fits into a standard Ø 28–30 mm round hole. Allows plugging in an external USB drive or controller. |
 | **IEC Power Inlet** | IEC 320 C14 fused rocker switch module (10A / 250V, "3-in-1" snap-in / screw-mount type) | 1 | Main power switch on the left panel. Salvaged from a **Creality Ender 3** PSU (standard ~47 × 27 mm panel cutout, 40 mm screw hole spacing — widely available as a generic 3D printer replacement part). |
 | **Power Strip** | 2-outlet minimum power strip | 1 | Mounted inside the cabinet (powers the 24" monitor and the 5V DC power supply). |
-| **Cables & Wiring** | - 1× HDMI cable (1 m)<br>- 1× 3.5 mm male-to-male audio jack cable (1 m)<br>- 1× IEC C13 mains power cord<br>- Electrical wires (mains AC & 5V DC) | 1 set | Internal wiring according to the [wiring diagram](Electronics/wiring_diagram.png). |
+| **Cables & Wiring** | - 1× HDMI cable (1 m)<br>- 1× 3.5 mm male-to-male audio jack cable (1 m)<br>- 1× IEC C13 mains power cord<br>- Electrical wires (mains AC & 5V DC) | 1 set | Internal wiring according to the [wiring diagram](Media/wiring_diagram.png). |
 
 >  **Important Note on Arcade Buttons:** Many arcade kits (like the Fosiya kit used here) advertise their buttons as **30 mm** — which actually refers to the outer lip/bezel diameter — while the threaded barrel itself is **28 mm**. The cabinet's DXF files are cut at **Ø 28 mm**, providing a tight, play-free fit. **Do not enlarge the holes to 30 mm** unless you have measured your button threads with calipers first.
 
