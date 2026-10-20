@@ -6,7 +6,7 @@
 | :--- | :--- | :---: | :--- |
 | **Raspberry Pi** | Raspberry Pi 3B+ *(or Pi 4 / Pi 5)* | 1 | Compatible with any board supported by [Recalbox](https://www.recalbox.com/) *(if using Pi 4/5: a Micro-HDMI to HDMI adapter is required)*. |
 | **MicroSD Card** | 16 GB minimum (32 GB to 128 GB recommended, Class 10 / UHS-I) | 1 | For the Recalbox OS and game ROMs. |
-| **24" Monitor** | 24" (16:9), VESA 100×100 mm, HDMI input *(Model used: **Philips 243V7QSB**)* | 1 | Panel dimensions without stand: **540 × 325 × 45 mm**. The cabinet provides a 20 mm clearance on each side (max accepted width: ~580 mm). |
+| **24" Monitor** | 24" (16:9), VESA 100×100 mm, HDMI input *(Model used: **Philips 243V7Q**)* | 1 | Panel dimensions without stand: **540 × 325 × 45 mm**. The cabinet provides a 20 mm clearance on each side (max accepted width: ~580 mm). |
 | **2-Player Arcade Kit** | 2P "Zero Delay" USB encoders, 2 joysticks, and **Ø 30 mm** LED chrome buttons *(Model used: **Fosiya 2-Player LED Arcade Kit**)* | 1 kit | Includes 2 USB encoder boards, 2× 8-way joysticks, and 18–20 LED push buttons (5V powered via the encoders). |
 | **5V Power Supply** | **5V DC / 6A (30W)** switching power supply | 1 | Powers the Raspberry Pi and the audio amplifier (avoids undervoltage warnings caused by the LED buttons). |
 | **Audio Amplifier** | 5V DC stereo mini amplifier, 3.5 mm Jack input | 1 | Connected to the Raspberry Pi via 3.5 mm audio jack and powered by the 5V PSU. |
