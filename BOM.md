@@ -28,6 +28,7 @@
 | **M4 Machine Screws** | **M4 × 15 mm** | 4 | VESA mount (100×100 mm) to attach the monitor to its wooden bracket. |
 | **Joystick Fasteners** | Included in the arcade kit | 1 set | Mounting the 2 joysticks under the control panel. |
 | **Wood Screws** | **3 × 10 mm** | ~100 | General assembly and mounting of the 3D-printed brackets / internal components. |
+| **Wood Screws (screen support)** | **4 × 15 mm** | 8 | Fix the screen support (with the monitor attached) onto the two wooden battens. |
 | **Mounting & Cable Management** | Heavy-duty double-sided tape, nylon zip ties, and hot glue | As needed | Securing the Raspberry Pi case inside the cabinet, plus internal cable management for the 2P arcade harness and small components. |
 | **Metal Angle Bracket** | Sized to suit your audio amplifier | 1 | Provides a mounting surface for the audio amplifier, secured using heavy-duty double-sided tape or hot glue. Choose the bracket size according to your amplifier model. |
 | **M5 Machine Screws** | **M5 × 35 mm** | 2 | Locker pins in CAD |
