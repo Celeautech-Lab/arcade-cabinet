@@ -10,6 +10,8 @@
   <img src="Media/REAL_front_view.png" alt="Arcade cabinet powered on, front view" width="700">
 </p>
 
+> **Who is this for?** This project is aimed at **experienced makers**. This README documents the key points, the pitfalls and the design choices, but it assumes **common sense and basic DIY skills** from the person following it: it is not a step-by-step tutorial for every screw. For the exact position of each part, refer to the **STEP assembly** in [`CAD/STEP/`](CAD/STEP/).
+
 ---
 
 ## Table of Contents
@@ -231,12 +233,12 @@ This port lets you plug in:
 
 ## Software: Recalbox
 
-The cabinet runs [Recalbox](https://www.recalbox.com/) **with no customization**. Everything is already very well documented by the Recalbox team, so **please refer to their [official wiki](https://wiki.recalbox.com/en/)**.
+The cabinet runs [Recalbox](https://www.recalbox.com/) **with no customization**. Everything is already very well documented by the Recalbox team, so **please refer to their [official tutorials](https://wiki.recalbox.com/en/tutorials)**.
 
 In short:
 
-1. **Installation**: flash Recalbox onto the microSD card with [Raspberry Pi Imager](https://www.raspberrypi.com/software/). Recalbox is listed directly among the available operating systems. See [the official procedure](https://wiki.recalbox.com/en/basic-usage/preparation-and-installation).
-2. **Controls**: the kit's USB encoders are **recognized automatically**. Just assign the buttons using the [standard controller configuration procedure](https://wiki.recalbox.com/en/basic-usage/first-use-and-configuration).
+1. **Installation**: flash Recalbox onto the microSD card with [Raspberry Pi Imager](https://www.raspberrypi.com/software/). Recalbox is listed directly among the available operating systems.
+2. **Controls**: the kit's USB encoders are **recognized automatically**. Just assign the buttons using the standard Recalbox controller configuration procedure.
 3. **Hotkey**: set it during controller configuration, for example 1P + 2P as on the original cabinet.
 
 ---
@@ -245,13 +247,13 @@ In short:
 
 The cleanest method is to **transfer games over the network**: with the cabinet connected via Wi-Fi or Ethernet, it shows up as a shared folder on your computer (`\\RECALBOX\share` on Windows). Just copy the ROMs into the folder of the matching system.
 
-Everything is explained, with screenshots, in the [official Recalbox documentation on adding games](https://wiki.recalbox.com/en/basic-usage/getting-started/add-games).
+The procedure is explained, with screenshots, in the [official Recalbox tutorials](https://wiki.recalbox.com/en/tutorials).
 
 ### Where to find games?
 
 The ROMs used on the original cabinet come from [archive.org](https://archive.org/).
 
-> **Arcade games (MAME / FBNeo)**: each emulator expects a **specific romset version**. A game that won't launch almost always comes from an incompatible version. Check the arcade system page on the [Recalbox wiki](https://wiki.recalbox.com/en/) to find out which version is expected.
+> **Arcade games (MAME / FBNeo)**: each emulator expects a **specific romset version**. A game that won't launch almost always comes from an incompatible version. Check the [Recalbox tutorials](https://wiki.recalbox.com/en/tutorials) to find out which version is expected.
 >
 > The original cabinet is mainly used with **MAME**, but the other systems (consoles) that were tested also work.
 
