@@ -4,7 +4,7 @@
 
 | Component | Specifications / Reference | Qty | Notes & Compatibility |
 | :--- | :--- | :---: | :--- |
-| **Raspberry Pi** | Raspberry Pi 3B+ *(or Pi 4 / Pi 5)* | 1 | Compatible with any board supported by [Recalbox](https://www.recalbox.com/) *(if using Pi 4/5: a Micro-HDMI to HDMI adapter is required)*. |
+| **Raspberry Pi** | Raspberry Pi 3B+ *(or Pi 4 / Pi 5)* | 1 | Runs [Recalbox](https://www.recalbox.com/), installed directly using **Raspberry Pi Imager**. The installation procedure is detailed in the README. *(If using Pi 4/5: a Micro-HDMI to HDMI adapter is required.)* |
 | **Raspberry Pi Case** | Case with active cooling fan (5V GPIO fan + heatsinks) | 1 | Essential to keep the Pi cool inside the enclosed cabinet. Mounted inside using double-sided tape. |
 | **MicroSD Card** | 16 GB minimum (32 GB to 128 GB recommended, Class 10 / UHS-I) | 1 | For the Recalbox OS and game ROMs. |
 | **24" Monitor** | 24" (16:9), VESA 100×100 mm, HDMI input *(Model used: **Philips 243V7Q**)* | 1 | Panel dimensions without stand: **540 × 325 × 45 mm**. The cabinet provides a 20 mm clearance on each side (max accepted width: ~580 mm). |
@@ -30,9 +30,9 @@
 | **Wood Screws** | **3 × 10 mm** | ~100 | General assembly and mounting of the 3D-printed brackets / internal components. |
 | **Mounting & Cable Management** | Heavy-duty double-sided tape, nylon zip ties, and hot glue | As needed | Securing the Raspberry Pi case inside the cabinet, plus internal cable management for the 2P arcade harness and small components. |
 | **Metal Angle Bracket** | Sized to suit your audio amplifier | 1 | Provides a mounting surface for the audio amplifier, secured using heavy-duty double-sided tape or hot glue. Choose the bracket size according to your amplifier model. |
-| **M5 Machine Screws** | **M5 × 35 mm** | 2 | Cabinet assembly. |
-| **Wooden Dowel** | **Ø 8 × 620 mm** | 1 | Cut to length for cabinet assembly. |
-| **Wooden Battens** | **33 × 33 × 620 mm** | 2 | Cut to length for cabinet assembly. |
+| **M5 Machine Screws** | **M5 × 35 mm** | 2 | Locker pins in CAD |
+| **Wooden Dowel** | **Ø 8 × 620 mm** | 1 | Cut to length for cabinet assembly. (back panel support in CAD) |
+| **Wooden Battens** | **33 × 33 × 620 mm** | 2 | Cut to length for cabinet assembly. (screen support bar in CAD) |
 
 ---
 
